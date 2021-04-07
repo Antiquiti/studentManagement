@@ -1,0 +1,54 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/images/wall.jpg");
+}
+
+.create-user
+{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+}
+
+label
+{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select
+{
+    background-color: rgb(11, 81, 102, 0.8);
+    border:0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+select, option
+{
+    font-weight: bold;
+}
+
+button
+{
+    grid-column-end: span 2;
+    background-color: rgb(50, 50, 134,0.8);
+    border:0;
+    justify-self: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
